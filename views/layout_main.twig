@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>{{ title }}</title>
+
+	<!-- CSS FILES -->
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
+
+
+	<!--all css-->
+	<link rel="stylesheet" href="./assets/css/preloader.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/jquery.lineProgressbar.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="assets/css/deafault.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+
+	<!-- head js -->
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script src="assets/js/jquery.lineProgressbar.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/jquery.waypoints.min.js"></script>
+	<script src="assets/js/jquery.counterup-1-0.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/ajax-contact-form.js"></script>
+	<script src="assets/js/modernizr-3.5.0.min.js"></script>
+
+
+
+
+	{% block javascripts %}{% endblock %}
+
+
+
+
+	</script>
+	<!-- END GLOBAL MANDATORY SCRIPTS -->
+	<!-- Favicon-->
+	<link rel="icon" type="/image/png" href="/img/favicon.png">
+</head>
+
+<body class="text-left">
+	<!-- ============ header menu ============= -->
+
+	<!-- ============ end of header menu ============= -->
+	<!-- ============ Body content start ============= -->
+	<div class="main-content-wrap sidenav-open d-flex flex-column">
+		<div class="main-content">
+			{% block body %}
+			{% endblock %}
+		</div>
+
+	</div>
+
+
+	<!-- ============ Scripts ============= -->
+	<!-- <script>$(document).ready(function () {
+App.init();
+});</script> -->
+	<!--<script src="assets/js/libs/jquery-3.1.1.min.js"></script> -->
+
+	<!--Start of Tawk.to Script-->
+	<script type="text/javascript">
+		var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+		(function () {
+			var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+			s1.async = true;
+			s1.src = 'https://embed.tawk.to/5eaec39810362a7578be91cc/default';
+			s1.charset = 'UTF-8';
+			s1.setAttribute('crossorigin', '*');
+			s0.parentNode.insertBefore(s1, s0);
+		})();
+	</script>
+
+
+	<script>
+		function readMoreButton() {
+			var dots = document.getElementById("dots");
+			var moreText = document.getElementById("more");
+			var btnText = document.getElementById("readMoreButton");
+
+			if (dots.style.display === "none") {
+				dots.style.display = "inline";
+				btnText.innerHTML = "Read more";
+				moreText.style.display = "none";
+			} else {
+				dots.style.display = "none";
+				btnText.innerHTML = "Read less";
+				moreText.style.display = "inline";
+			}
+		}
+	</script>
+	<script src="./assets/js/particles-code.js"></script>
+	<script src="assets/js/particles.js"></script>
+	<script src="assets/js/main.js"></script>

@@ -1,0 +1,369 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1500px) {
+.cf-social-link {
+	visibility: visible;
+	display: block;
+}
+}
+
+@media (min-width: 1500px) and (max-width: 1700px) {
+.cf-masktext {
+	font-size: 130px;
+	line-height: 140px
+}
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+.singel-cf-portfo-item img {
+	height: 450px;
+}
+.cf-masktext {
+	font-size: 120px;
+	line-height: 130px
+}
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+.cf-hero-area {
+	min-height: 800px;
+	padding-top: 0;
+}
+.cf-main-menu-wraper {
+	position: relative;
+	top: 0;
+}
+.cf-masktext {
+	font-size: 90px;
+	line-height: 100px
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px) {
+h2 {
+	font-size: 60px;
+	line-height: 70px;
+}
+.cf-hero-area {
+	min-height: 750px;
+	padding-top: 0;
+}
+.cf-main-menu-wraper {
+	position: relative;
+	top: 0;
+}
+.singel-cf-portfo-item img {
+	height: 450px;
+}
+.cf-footer-top {
+	height: 400px;
+}
+.cf-masktext {
+	font-size: 70px;
+	line-height: 70px;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+.cf-main-menu-wraper {
+	position: relative;
+	top: 0;
+}
+.cf-hot-line {
+	display: none;
+}
+h2 {
+	font-size: 50px;
+	line-height: 60px;
+}
+.cf-hero-area {
+	min-height: 650px;
+}
+.cf-video-play {
+	margin-left: 15px;
+}
+.cf-progress .cf-btn {
+	margin-bottom: 40px;
+}
+.cf-portfo-btn {
+	width: auto;
+	padding: 22px 50px;
+}
+.singel-cf-portfo-item h3 {
+	width: auto;
+	font-size: 24px;
+	line-height: 1.4;
+}
+.singel-cf-portfo-item img {
+	height: 400px;
+}
+.cf-video-area {
+	min-height: 500px;
+}
+.cf-card {
+	padding-left: 44px;
+}
+.cf-card .card-header h4 a {
+	line-height: 1.5;
+}
+.cf-blog-content {
+	padding: 26px 20px;
+}
+.cf-contact-wrapper h3 {
+	padding-right: 0;
+}
+.cf-footer-top {
+	height: 300px;
+}
+.cf-masktext {
+	font-size: 70px;
+	line-height: 80px;
+}
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 767px) {
+.cf-main-menu-wraper {
+	display: none;
+}
+.cf-hot-line {
+	display: none;
+}
+.cf-t-menu {
+	padding: 10px;
+}
+.cf-off-canvas-menu {
+	padding: 15px 10px;
+	top: 0;
+	bottom: 0;
+	border-radius: 6px 0 0 6px;
+}
+.cf-off-canvas-menu.active {
+	margin-right: 0;
+	width: 85%;
+	padding-left: 20px;
+}
+.cf-menu-close {
+	padding-right: 20px;
+}
+h4 {
+	font-size: 18px;
+	line-height: 28px;
+}
+h2 {
+	font-size: 30px;
+	line-height: 40px;
+}
+.cf-title-h:hover {
+	text-shadow: 0 3px 3px #8c0000;
+}
+.cf-light .cf-title-h:hover {
+	text-shadow: 0 1px 1px #555;
+}
+.cf-hero-content.pt-70 {
+	padding-top: 0;
+}
+.cf-hero-area {
+	min-height: 550px;
+}
+.cf-hero-img {
+	display: none;
+}
+.cf-hero-btn .cf-video-play {
+	display: none;
+}
+.cf-hero-slider.owl-carousel .owl-dots {
+	right: 20px;
+}
+.mb-40 {
+	margin-bottom: 20px;
+}
+.mt-50 {
+	margin-top: 30px;
+}
+.mb-35 {
+	margin-bottom: 20px;
+}
+.mb-50 {
+	margin-bottom: 30px;
+}
+.mb-60 {
+	margin-bottom: 30px;
+}
+.cf-btn {
+	padding: 15px 26px;
+}
+.cf-off-canvas-menu li a {
+	padding: 8px 0;
+}
+p, label {
+	font-size: 15px;
+	line-height: 26px;
+}
+.cf-section-title h4 {
+	margin-bottom: 15px;
+}
+.cf-progress h3 {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+}
+.cf-progress {
+	margin-bottom: 30px;
+}
+.cf-proggress-img {
+	margin-bottom: 10px;
+}
+.cf-services-head h2 {
+	font-size: 20px;
+	line-height: 1.5;
+}
+.cf-single-services-box p:last-child {
+	margin-bottom: 0;
+}
+.cf-portfo-btn {
+	padding: 14px 30px;
+	width: auto;
+	margin: 0 3px;
+	margin-bottom: 6px
+}
+.cf-portfolio {
+	padding: 0;
+}
+#nav-tab {
+	margin-bottom: 30px;
+}
+.singel-cf-portfo-item img {
+	height: 400px;
+}
+.singel-cf-portfo-item h3 {
+	width: auto;
+	font-size: 20px;
+	line-height: 1.4;
+}
+.cf-testimonial-slider {
+	margin-bottom: 30px;
+}
+.cf-blog-slider .owl-nav, .cf-portfo-carousel .owl-nav, .cf-testimonial-slider .owl-nav {
+	margin-top: 24px;
+}
+.cf-blog-slider .owl-nav button i, .cf-portfo-carousel .owl-nav button i, .cf-testimonial-slider .owl-nav button i {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	margin: 0 6px;
+}
+.cf-factor-item {
+	font-size: 40px;
+}
+.cf-factor-item {
+	margin-bottom: 14px;
+}
+.cf-video-area {
+	min-height: 400px;
+}
+.cf-card.card.mb-50 {
+	padding-left: 0;
+}
+.cf-card .card-header h4 a span {
+	display: none;
+}
+.cf-card .card-header h4 {
+	font-size: 17px;
+}
+.cf-card.card.mb-50 {
+	padding-left: 0;
+	margin-bottom: 10px;
+}
+.card-body.mt-25 {
+	margin-top: 15px;
+}
+.cf-card .card-header h4 a[aria-expanded="false"]::after {
+	display: none;
+}
+.cf-card .card-header h4 a[aria-expanded="true"]::after {
+	display: none;
+}
+.cf-blog-content {
+	padding: 20px;
+}
+.cf-blog-thumb {
+	height: 280px;
+}
+.cf-blog-content h2 {
+	font-size: 20px;
+	line-height: 1.4;
+}
+.cf-contact-wrapper {
+	padding: 40px 0;
+}
+#message {
+	margin-bottom: 20px !important;
+}
+.cf-contact-wrapper h3 {
+	padding: 0;
+	padding-bottom: 20px;
+	font-size: 20px;
+	line-height: 1.4;
+}
+.cf-input-s1 {
+	margin-bottom: 24px;
+
+}
+.cf-uploader label {
+	left: 5px;
+}
+.cf-btn.cf-hover.mt-20 {
+	margin-top: 0;
+}
+.mb-45 {
+	margin-bottom: 30px;
+}
+.cf-footer-top {
+	height: 250px;
+}
+.cf-masktext {
+	font-size: 30px;
+	line-height: 1.4;
+}
+.ptb-100 {
+	padding: 40px 0;
+}
+.pt-100 {
+	padding-top: 40px;
+}
+.cf-testimonial-area.pb-100 {
+	padding-bottom: 10px;
+}
+section.pb-50 {
+	padding-bottom: 10px;
+}
+.cf-faqs-area.pb-50 {
+	padding-bottom: 40px;
+}
+section.pb-70 {
+	padding-bottom: 10px;
+}
+div.pb-70 {
+	padding-bottom: 10px;
+}
+.footer-area.pb-70 {
+	padding-bottom: 10px;
+}
+.pd-30 {
+	padding: 20px;
+}
+h3 {
+	font-size: 20px;
+	line-height: 1.4;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+ .cf-hero-img {
+	display: block;
+}
+}

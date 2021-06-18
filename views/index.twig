@@ -1,0 +1,240 @@
+{% extends 'layout_main.twig' %}
+
+
+{% block body %}
+
+
+
+{% include 'layout_navbar.twig' %}
+
+<main>
+
+
+	{% include 'layout_homesection.twig' %}
+
+
+
+	<div class="gradient-line thin"></div>
+
+	<!-- intro area start -->
+	<section id="about" class="cf-intro-area ptb-100">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="cf-section-title">
+						<h4 class="mb-35" style="text-align:center;">Introducing A New Digital Future</h4>
+						<h2 class="mb-40 cf-title-h" style="text-align:center;"><span style="color:red;">A L T</span> F
+							E N I X
+						</h2>
+						<p class="mb-40">Altfenix Exchange is a digital asset and fiat currency exchange that offers a
+							traditional
+							trading platform for pro traders with enhanced
+							features that allows Qredit Motion users to instantly exchange their currency in the app
+							from liquidity
+							pools and order
+							books on the
+							Altfenix Exchange.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row align-items-center">
+				<div class="col-xl-6 col-lg-5">
+					<div class="cf-proggress-img">
+						<img class="cf-hover" src="./assets/img/mockup-mac.png" alt="">
+					</div>
+				</div>
+				<div class="col-xl-6 col-lg-7">
+					<div class="cf-progress">
+						<h3 class="mb-45">Registration for fiat currency trading on the Altfenix Exchange is limited to
+							specific
+							users or types of users and
+							<span style="color:red;">currently</span> only accessible
+							to people with a citizenship in a EU/UK country, excluding Germany, Switzerland and Austria.
+							Other worldwide citizens will be allowed to participate in crypto to crypto trading as
+							deemed by their
+							local laws. As local laws are clarified, we will seek to broaden fiat access either via a
+							third-party or
+							direct license with authorities.
+						</h3>
+					</div>
+				</div>
+				<div class="container" style="text-align:center;">
+					<div class="gradient-line thin" style="margin-bottom:50px;"></div>
+					<p style="font-weight: 600;color: white;">Registration</p>
+
+					<p style="font-size:12px;font-style: italic;margin-top:10px;">The following methods might allow you
+						to
+						acquire access to the
+						trading
+						platform.<span id="dots">...</span><span id="more">
+							<br>
+							* Developer or team member of a listed asset.<br>
+							* Registration using invite codes.<br>
+							* Invite codes can be earned through referrals in the Qredit Motion app.<br>
+							* Being a delegate and having a reliable forging node on the Qredit Blockchain for at least
+							30
+							days.<br>
+							* Having a paid Epic subscription in Qredit Motion for at least 1 year.<br>
+							* Trusted liquidity provider.<br>
+							* Staking 250.000 XQR coins. (will be locked and returned after 1 year with interest).<br>
+							* Being a community content provider. (Creating memes, social media content and such).<br>
+							* Don't ask or contact us for invite codes. We will contact you.
+						</span></p>
+					<button class="cf-btn cf-btn-header cf-hover" onclick="readMoreButton()" id="readMoreButton">Read
+						more</button>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<!-- intro area end -->
+	<div class="gradient-line thin"></div>
+	<!-- services area start -->
+	<section id="services" class="cf-services-area pt-100 pb-50">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="cf-section-title text-center mb-60">
+						<h4 class="mb-35">Elite</h4>
+						<h2 class="mb-40 cf-title-h">TRADING PLATFORM</h2>
+						<p>A licensed exchange system with open development community involvement. <br>
+							Altfenix doesn't run on wallet daemons. Any information regarding keys uses network
+							resources
+							such as API and SPF Protocols.<br>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="cf-single-services-box cf-hover mb-50">
+						<div class="cf-services-head mb-25">
+							<img class="mr-20" src="./assets/img/Services/icon-4.png" alt="">
+							<h2>Open Source</h2>
+						</div>
+						<p>The frontend is open source and available for all to view and contribute.<br>
+							The backend is invite only for contributors. Contributors will be compensated for their time
+							from the
+							fees collected on
+							the Altfenix platform.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="cf-single-services-box cf-hover mb-50">
+						<div class="cf-services-head mb-25">
+							<img class="mr-20" src="./assets/img/Services/icon-4.png" alt="">
+							<h2>Licensed and Insured</h2>
+						</div>
+						<p>Upon release, Altfenix will be licensed through Qredit LTD and incorporated in Estonia.
+							Altfenix
+							collects
+							fees and profit generated from the platform and from Qredit Motion to provide financial
+							insurance for
+							hot
+							wallets.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="cf-single-services-box cf-hover mb-50">
+						<div class="cf-services-head mb-25">
+							<img class="mr-20" src="./assets/img/Services/icon-4.png" alt="">
+							<h2>Exclusive Membership</h2>
+						</div>
+						<p>Registration on Altfenix requires an invite code, earned and given by loyal or
+							contributing members to the ecosystem.
+							No trollbox, coin competitions or wash trades. 99% of the users are trusted and experienced
+							traders.
+						</p>
+					</div>
+				</div>
+				<div class="gradient-line thin"></div><br>
+				<div class="col-md-6">
+					<div class="cf-single-services-box cf-hover mb-50">
+						<div class="cf-services-head mb-25">
+							<img class="mr-20" src="./assets/img/Services/icon-4.png" alt="">
+							<h2>Traditional Asset Listing</h2>
+						</div>
+						<p>
+							Altfenix offers traditional trading for experienced traders on the platform.
+							Trading on the Altfenix Exchange is only available to a limited number of users that gained
+							access to
+							the platform
+							following the registration policy.
+
+							Please keep in mind that listing your project with the basic listing package will not give
+							any trading
+							possibilities for
+							Qredit Motion users or to any other random person that is not invited to trade on the
+							Altfenix Exchange.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="cf-single-services-box cf-hover mb-50">
+						<div class="cf-services-head mb-25">
+							<img class="mr-20" src="./assets/img/Services/icon-4.png" alt="">
+							<h2>Partner Program</h2>
+						</div>
+						<p>Offer your digital asset to users world-wide.
+
+							Become a partner and get your digital asset listed in Qredit Motion and Altfenix Exchange.
+
+							Using the banking features and debit cards, Qredit Motion users will have easy access to buy
+							or sell
+							your digital
+							currency using traditional currencies or other cryptocurrencies and safely hold their assets
+							in either a
+							hot wallet or
+							cold wallet. The Partner Program will only accept 4 listings per month.
+						</p>
+					</div>
+				</div>
+				<div class="container">
+					<p style="text-align:center;font-style: italic;font-size: 14px;color:white;">Listing is currently
+						disabled.
+						Priority for listing will be given to assets formerly listed on the Altilly Exchange.<br>
+						More details regarding the partnership program
+						will be available soon.</p>
+				</div>
+			</div>
+	</section>
+	<!-- services area end -->
+	<div class="gradient-line thin"></div>
+
+	<!-- portfolio area start 
+    <section id="portfolio" class="cf-portfolio-area ptb-100">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="cf-section-title text-center mb-60">
+              <h4 class="mb-35">Learn More</h4>
+              <h2 class="mb-40 cf-title-h">ABOUT <span style="color:red;">ALT</span>FENIX</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+portfolio area end -->
+
+</main>
+<!-- main content area end -->
+<div class="gradient-line thin"></div>
+
+
+
+
+
+
+
+{% include 'layout_footer.twig' %}
+
+{% endblock %}
+
+{% block javascripts %}
+
+
+
+
+{% endblock %}
