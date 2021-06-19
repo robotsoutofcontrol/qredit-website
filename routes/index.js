@@ -103,5 +103,168 @@ router.get("/altfenix-listing", function (req, res, next) {
   });
 });
 
+/* GET blockchain pages. */
+router.get("/blockchain", function (req, res, next) {
+  res.render("blockchain", {
+    title: "Qredit - Blockchain",
+    routename: "blockchain",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/blockchain-wallets", function (req, res, next) {
+  res.render("blockchain-wallets", {
+    title: "Qredit - Blockchain",
+    routename: "blockchain-wallets",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/blockchain-explorer", function (req, res, next) {
+  res.render("blockchain-explorer", {
+    title: "Qredit - Blockchain",
+    routename: "blockchain-explorer",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/blockchain-qslp", function (req, res, next) {
+  res.render("blockchain-qslp", {
+    title: "Qredit - Blockchain",
+    routename: "blockchain-qslp",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/blockchain-faq", function (req, res, next) {
+  res.render("blockchain-faq", {
+    title: "Qredit - Blockchain",
+    routename: "blockchain-faq",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/blockchain-node", function (req, res, next) {
+  res.render("blockchain-node", {
+    title: "Qredit - Blockchain",
+    routename: "blockchain-node",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/blockchain-swap", function (req, res, next) {
+  res.render("blockchain-swap", {
+    title: "Qredit - Developer",
+    routename: "blockchain-swap",
+    csrfToken: req.csrfToken()
+  });
+});
+/* GET developer pages. */
+router.get("/developer-motion", function (req, res, next) {
+  res.render("developer-motion", {
+    title: "Qredit - Developer",
+    routename: "developer-motion",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/developer-altfenix", function (req, res, next) {
+  res.render("developer-altfenix", {
+    title: "Qredit - Developer",
+    routename: "developer-altfenix",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/developer-blockchain", function (req, res, next) {
+  res.render("developer-blockchain", {
+    title: "Qredit - Developer",
+    routename: "developer-blockchain",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/developer-api", function (req, res, next) {
+  res.render("developer-api", {
+    title: "Qredit - Developer",
+    routename: "developer-api",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/developer-documentation", function (req, res, next) {
+  res.render("developer-documentation", {
+    title: "Qredit - Developer",
+    routename: "developer-documentation",
+    csrfToken: req.csrfToken()
+  });
+});
+
+/* GET about pages. */
+router.get("/about-company", function (req, res, next) {
+  res.render("about-company", {
+    title: "Qredit - About",
+    routename: "about-company",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/about-licensing", function (req, res, next) {
+  res.render("about-licensing", {
+    title: "Qredit - About",
+    routename: "about-licensing",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/about-whitepaper", function (req, res, next) {
+  res.render("about-whitepaper", {
+    title: "Qredit - About",
+    routename: "about-whitepaper",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/about-partners", function (req, res, next) {
+  res.render("about-partners", {
+    title: "Qredit - About",
+    routename: "about-partners",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/about-amlgdpr", function (req, res, next) {
+  res.render("about-amlgdpr", {
+    title: "Qredit - About",
+    routename: "about-amlgdpr",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/about-disclaimer", function (req, res, next) {
+  res.render("about-disclaimer", {
+    title: "Qredit - About",
+    routename: "about-disclaimer",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/about-policy", function (req, res, next) {
+  res.render("about-policy", {
+    title: "Qredit - About",
+    routename: "about-policy",
+    csrfToken: req.csrfToken()
+  });
+});
+
+/* GET support pages. */
+router.get("/support", function (req, res, next) {
+  res.render("support", {
+    title: "Qredit - Support",
+    routename: "support",
+    csrfToken: req.csrfToken()
+  });
+});
+
 
 module.exports = router;
