@@ -19,6 +19,14 @@ router.get("/index2", function (req, res, next) {
   });
 });
 
+router.get("/altbckp", function (req, res, next) {
+  res.render("altbckp", {
+    title: "Qredit - Index Backup",
+    routename: "altbckp",
+    csrfToken: req.csrfToken()
+  });
+});
+
 /* GET navbar pages. */
 router.get("/motion", function (req, res, next) {
   res.render("motion", {
@@ -28,29 +36,7 @@ router.get("/motion", function (req, res, next) {
   });
 });
 
-router.get("/altfenix", function (req, res, next) {
-  res.render("altfenix", {
-    title: "Qredit - Altfenix",
-    routename: "altfenix",
-    csrfToken: req.csrfToken()
-  });
-});
 
-router.get("/blockchain", function (req, res, next) {
-  res.render("blockchain", {
-    title: "Qredit - Blockchain",
-    routename: "blockchain",
-    csrfToken: req.csrfToken()
-  });
-});
-
-router.get("/about", function (req, res, next) {
-  res.render("about", {
-    title: "Qredit - About",
-    routename: "about",
-    csrfToken: req.csrfToken()
-  });
-});
 
 
 

@@ -1,17 +1,10 @@
-{% extends 'layout_main.twig' %}
+<!DOCTYPE html>
+<html lang="en">
+{% include './blocks/head.twig' %}
 
+<body class="index-page">
 
-{% block body %}
-
-
-
-{% include 'layout_navbar.twig' %}
-
-<main>
-
-
-	{% include 'layout_homesection.twig' %}
-
+	{% include './blocks/navbar.twig' %}
 
 
 	<div class="gradient-line thin"></div>
@@ -218,23 +211,9 @@
     </section>
 portfolio area end -->
 
-</main>
-<!-- main content area end -->
-<div class="gradient-line thin"></div>
+	</main>
+	<!-- main content area end -->
+	<div class="gradient-line thin"></div>
 
 
-
-
-
-
-
-{% include 'layout_footer.twig' %}
-
-{% endblock %}
-
-{% block javascripts %}
-
-
-
-
-{% endblock %}
+</body>

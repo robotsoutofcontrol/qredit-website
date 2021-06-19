@@ -105,7 +105,7 @@ body {
   line-height: 1.5;
   color: #525f7f;
   text-align: left;
-  background-color: #03040e;
+  background-color: #020000;
 }
 
 [tabindex="-1"]:focus {
@@ -3422,7 +3422,7 @@ input[type="button"].btn-block {
   color: #fff;
   text-align: left;
   list-style: none;
-  background-color: #080e3c;
+  background-color: #3c0000;
   background-clip: padding-box;
   border: 0 solid rgba(34, 42, 66, 0.15);
   border-radius: 0.1428rem;
@@ -11040,9 +11040,10 @@ fieldset[disabled] .btn-info.active {
 }
 
 .btn-info.btn-simple {
-  color: #1d8cf8;
-  border-color: #1d8cf8;
+  color: #1dbaf8;
+  border-color: #1dbaf8;
   background: transparent;
+  font-weight: 600;
 }
 
 .btn-info.btn-simple:hover,
@@ -12412,8 +12413,7 @@ fieldset[disabled] .btn-link.active {
 
 .footer {
   padding: 50px 0;
-  border-top: 2px solid #435DB5;
-  background: radial-gradient(ellipse at bottom, #292D61 30%, #03040e 80%);
+  background: radial-gradient(ellipse at bottom, #00000000 30%, #000000 80%);
 }
 
 .footer [class*="container-"] {
@@ -13687,7 +13687,7 @@ img {
   padding: 0.9375rem;
   width: 100%;
   z-index: 1050;
-  background: #02000af0;
+  background: #020000d1;
 }
 
 .navbar .photo {
@@ -14259,7 +14259,7 @@ img {
     left: 0;
     top: 0;
     margin: 0.7rem;
-    background: #1f2251;
+    background: #3c0000;
     border-radius: 0.2857rem;
     padding: 1.4rem;
   }
@@ -17431,7 +17431,7 @@ hr.line-deafult {
 }
 
 .section {
-  padding: 70px 0;
+  padding: 20px 0;
   position: relative;
 }
 
