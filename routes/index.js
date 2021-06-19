@@ -38,6 +38,16 @@ router.get("/motion", function (req, res, next) {
 
 
 
+/* GET altfenix pages. */
+router.get("/altfenix", function (req, res, next) {
+  res.render("altfenix", {
+    title: "Qredit - Altfenix Exchange",
+    routename: "altfenix",
+    csrfToken: req.csrfToken()
+  });
+});
+
+
 
 
 module.exports = router;

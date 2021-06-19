@@ -20839,3 +20839,413 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
 .navbar-logo {
   max-height:32px;
 }
+
+/* hosting-pages */
+
+.main-header-text-title small {
+    display: block;
+    text-transform: lowercase;
+    font-size: 17px;
+    margin-top: 1px;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: #9ba8af;
+}
+
+.main-header-text-title .sub-page-breadcrumb {
+    text-transform: initial;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    color: #62747d;
+    letter-spacing: 0.6px;
+}
+
+.breadcrumb-hosting-pages {
+    background: #191627;
+    border-radius: 6px;
+    margin-top: 15px;
+    -webkit-box-shadow: 0 9px 18px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 3px 27px rgba(0, 0, 0, 0.07);
+    border: 1px solid blue;
+}
+
+.breadcrumb-hosting-pages a {
+    text-align: center;
+    padding: 30px 10px;
+    text-decoration: none !important;
+    position: relative;
+    background: #191627;
+}
+
+.breadcrumb-hosting-pages a:last-child {
+    border: 0;
+    border-radius: 0 6px 6px 0;
+}
+
+.breadcrumb-hosting-pages a:first-child {
+    border-radius: 6px 0 0 6px;
+}
+
+.breadcrumb-hosting-pages a img {
+    width: 50px;
+    margin: auto;
+}
+
+.breadcrumb-hosting-pages a .sub-breadcrumb-host-title {
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #fff;
+    position: relative;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+}
+
+.breadcrumb-hosting-pages a.active:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px 10px 0 10px;
+    border-color: #fafcfc transparent transparent transparent;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -9px;
+}
+
+.breadcrumb-hosting-pages a.active {
+    background: #191627;
+}
+
+.breadcrumb-hosting-pages a .off-tag {
+    position: absolute;
+    top: -10px;
+    background: #F44336;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2px 15px;
+    border-radius: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90px;
+}
+
+.page-header-sub {
+  min-height: 50px;
+  max-height: 511px;
+  padding: 0;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+
+/*------------------------------------------------------------------
+	14. display on hover box
+-------------------------------------------------------------------*/
+
+.display-on-hover-box-container {
+    position: relative;
+    width: 430px;
+    height: 430px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: transform;
+    -webkit-animation-duration: .3s;
+    -moz-animation-duration: .3s;
+    -o-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+.display-on-hover-box-container:after {
+    content: '';
+    width: 266px;
+    height: 248px;
+    background: url(../img/bg/box-hover.png) no-repeat;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.display-on-hover-box-items {
+    opacity: 0.3;
+    text-align: center;
+    z-index: 2;
+    line-height: 72px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 140px;
+    height: 150px;
+    margin-top: -36px;
+    margin-left: -70px;
+    cursor: pointer;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: opacity, transform;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.display-on-hover-box-items img {
+    width: 35px;
+}
+
+/*-- original --*/
+
+.display-on-hover-box-container .display-on-hover-box-items:nth-child(1) {
+    -webkit-transform: rotate(-90deg) translate3d(170px, 0, 0) rotate(90deg);
+    -moz-transform: rotate(-90deg) translate3d(170px, 0, 0) rotate(90deg);
+    transform: rotate(-90deg) translate3d(170px, 0, 0) rotate(90deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items:nth-child(2) {
+    -webkit-transform: rotate(-45deg) translate3d(170px, 0, 0) rotate(45deg);
+    -moz-transform: rotate(-45deg) translate3d(170px, 0, 0) rotate(45deg);
+    transform: rotate(-45deg) translate3d(170px, 0, 0) rotate(45deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items:nth-child(3) {
+    -webkit-transform: rotate(0deg) translate3d(170px, 0, 0) rotate(0deg);
+    -moz-transform: rotate(0deg) translate3d(170px, 0, 0) rotate(0deg);
+    transform: rotate(0deg) translate3d(170px, 0, 0) rotate(0deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items:nth-child(4) {
+    -webkit-transform: rotate(45deg) translate3d(170px, 0, 0) rotate(-45deg);
+    -moz-transform: rotate(45deg) translate3d(170px, 0, 0) rotate(-45deg);
+    transform: rotate(45deg) translate3d(170px, 0, 0) rotate(-45deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items:nth-child(5) {
+    -webkit-transform: rotate(90deg) translate3d(170px, 0, 0) rotate(-90deg);
+    -moz-transform: rotate(90deg) translate3d(170px, 0, 0) rotate(-90deg);
+    transform: rotate(90deg) translate3d(170px, 0, 0) rotate(-90deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items:nth-child(6) {
+    -webkit-transform: rotate(135deg) translate3d(170px, 0, 0) rotate(-135deg);
+    -moz-transform: rotate(135deg) translate3d(170px, 0, 0) rotate(-135deg);
+    transform: rotate(135deg) translate3d(170px, 0, 0) rotate(-135deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items:nth-child(7) {
+    -webkit-transform: rotate(180deg) translate3d(170px, 0, 0) rotate(-180deg);
+    -moz-transform: rotate(180deg) translate3d(170px, 0, 0) rotate(-180deg);
+    transform: rotate(180deg) translate3d(170px, 0, 0) rotate(-180deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items:nth-child(8) {
+    -webkit-transform: rotate(225deg) translate3d(170px, 0, 0) rotate(-225deg);
+    -moz-transform: rotate(225deg) translate3d(170px, 0, 0) rotate(-225deg);
+    transform: rotate(225deg) translate3d(170px, 0, 0) rotate(-225deg);
+}
+
+/*-- on active without hover --*/
+
+.display-on-hover-box-container .display-on-hover-box-items.itsnot:nth-child(1) {
+    -webkit-transform: rotate(-90deg) translate3d(155px, 0, 0) rotate(90deg);
+    -moz-transform: rotate(-90deg) translate3d(155px, 0, 0) rotate(90deg);
+    transform: rotate(-90deg) translate3d(155px, 0, 0) rotate(90deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items.itsnot:nth-child(2) {
+    -webkit-transform: rotate(-45deg) translate3d(155px, 0, 0) rotate(45deg);
+    -moz-transform: rotate(-45deg) translate3d(155px, 0, 0) rotate(45deg);
+    transform: rotate(-45deg) translate3d(155px, 0, 0) rotate(45deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items.itsnot:nth-child(3) {
+    -webkit-transform: rotate(0deg) translate3d(155px, 0, 0) rotate(0deg);
+    -moz-transform: rotate(0deg) translate3d(155px, 0, 0) rotate(0deg);
+    transform: rotate(0deg) translate3d(155px, 0, 0) rotate(0deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items.itsnot:nth-child(4) {
+    -webkit-transform: rotate(45deg) translate3d(155px, 0, 0) rotate(-45deg);
+    -moz-transform: rotate(45deg) translate3d(155px, 0, 0) rotate(-45deg);
+    transform: rotate(45deg) translate3d(155px, 0, 0) rotate(-45deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items.itsnot:nth-child(5) {
+    -webkit-transform: rotate(90deg) translate3d(155px, 0, 0) rotate(-90deg);
+    -moz-transform: rotate(90deg) translate3d(155px, 0, 0) rotate(-90deg);
+    transform: rotate(90deg) translate3d(155px, 0, 0) rotate(-90deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items.itsnot:nth-child(6) {
+    -webkit-transform: rotate(135deg) translate3d(155px, 0, 0) rotate(-135deg);
+    -moz-transform: rotate(135deg) translate3d(155px, 0, 0) rotate(-135deg);
+    transform: rotate(135deg) translate3d(155px, 0, 0) rotate(-135deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items.itsnot:nth-child(7) {
+    -webkit-transform: rotate(180deg) translate3d(155px, 0, 0) rotate(-180deg);
+    -moz-transform: rotate(180deg) translate3d(155px, 0, 0) rotate(-180deg);
+    transform: rotate(180deg) translate3d(155px, 0, 0) rotate(-180deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items.itsnot:nth-child(8) {
+    -webkit-transform: rotate(225deg) translate3d(155px, 0, 0) rotate(-225deg);
+    -moz-transform: rotate(225deg) translate3d(155px, 0, 0) rotate(-225deg);
+    transform: rotate(225deg) translate3d(155px, 0, 0) rotate(-225deg);
+}
+
+/*-- on active with hover --*/
+
+.display-on-hover-box-container .display-on-hover-box-items.itsnot.active:nth-child(1) {
+    -webkit-transform: rotate(-90deg) translate3d(175px, 0, 0) rotate(90deg);
+    -moz-transform: rotate(-90deg) translate3d(175px, 0, 0) rotate(90deg);
+    transform: rotate(-90deg) translate3d(175px, 0, 0) rotate(90deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items.itsnot.active:nth-child(2) {
+    -webkit-transform: rotate(-45deg) translate3d(175px, 0, 0) rotate(45deg);
+    -moz-transform: rotate(-45deg) translate3d(175px, 0, 0) rotate(45deg);
+    transform: rotate(-45deg) translate3d(175px, 0, 0) rotate(45deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items.itsnot.active:nth-child(3) {
+    -webkit-transform: rotate(0deg) translate3d(175px, 0, 0) rotate(0deg);
+    -moz-transform: rotate(0deg) translate3d(175px, 0, 0) rotate(0deg);
+    transform: rotate(0deg) translate3d(175px, 0, 0) rotate(0deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items.itsnot.active:nth-child(4) {
+    -webkit-transform: rotate(45deg) translate3d(175px, 0, 0) rotate(-45deg);
+    -moz-transform: rotate(45deg) translate3d(175px, 0, 0) rotate(-45deg);
+    transform: rotate(45deg) translate3d(175px, 0, 0) rotate(-45deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items.itsnot.active:nth-child(5) {
+    -webkit-transform: rotate(90deg) translate3d(175px, 0, 0) rotate(-90deg);
+    -moz-transform: rotate(90deg) translate3d(175px, 0, 0) rotate(-90deg);
+    transform: rotate(90deg) translate3d(175px, 0, 0) rotate(-90deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items.itsnot.active:nth-child(6) {
+    -webkit-transform: rotate(135deg) translate3d(175px, 0, 0) rotate(-135deg);
+    -moz-transform: rotate(135deg) translate3d(175px, 0, 0) rotate(-135deg);
+    transform: rotate(135deg) translate3d(175px, 0, 0) rotate(-135deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items.itsnot.active:nth-child(7) {
+    -webkit-transform: rotate(180deg) translate3d(175px, 0, 0) rotate(-180deg);
+    -moz-transform: rotate(180deg) translate3d(175px, 0, 0) rotate(-180deg);
+    transform: rotate(180deg) translate3d(175px, 0, 0) rotate(-180deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items.itsnot.active:nth-child(8) {
+    -webkit-transform: rotate(225deg) translate3d(175px, 0, 0) rotate(-225deg);
+    -moz-transform: rotate(225deg) translate3d(175px, 0, 0) rotate(-225deg);
+    transform: rotate(225deg) translate3d(175px, 0, 0) rotate(-225deg);
+}
+
+.display-on-hover-box-container .display-on-hover-box-items.itsnot {
+    opacity: 0.2
+}
+
+.display-on-hover-box-container .display-on-hover-box-items.itsnot.active {
+    opacity: 1
+}
+
+.display-on-hover-box-content {
+    width: 266px;
+    height: 248px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.display-on-hover-box-content .not-hover-icon {
+    color: #fff;
+    line-height: 230px;
+    display: block;
+}
+
+.display-on-hover-box-content .not-hover-icon:before {
+    font-size: 80px;
+}
+
+.home-ads-section {
+    background: #a358e0;
+    background: -webkit-linear-gradient(left top, #616ad4, #a558e1);
+    background: -o-linear-gradient(bottom right, #616ad4, #a558e1);
+    background: -moz-linear-gradient(bottom right, #616ad4, #a558e1);
+    background: linear-gradient(to bottom right, #5c6bd3, #a358e0);
+}
+
+.home-ads-section h1 {
+    margin: 0;
+    padding: 25px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.tab-content-hover {
+    display: none;
+}
+
+.display-on-hover-box-cotent-items {
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    color: #fff;
+    padding: 0 25px;
+}
+
+.display-on-hover-box-cotent-items .tab-content-hover:first-child {
+    display: block;
+}
+
+.display-on-hover-box-cotent-items h5 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.display-on-hover-box-cotent-items p {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+}
