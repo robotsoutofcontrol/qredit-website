@@ -10,6 +10,15 @@ router.get("/", function (req, res, next) {
   });
 });
 
+/* GET backup page. */
+router.get("/index2", function (req, res, next) {
+  res.render("index2", {
+    title: "Qredit - Motion",
+    routename: "index2",
+    csrfToken: req.csrfToken()
+  });
+});
+
 /* GET navbar pages. */
 router.get("/motion", function (req, res, next) {
   res.render("motion", {
