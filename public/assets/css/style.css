@@ -10398,10 +10398,10 @@ a.text-darker:focus {
   border-radius: 0.4285rem;
   cursor: pointer;
   background: #344675;
-  background-image: -webkit-linear-gradient(to bottom left, #344675, #263148, #344675);
-  background-image: -o-linear-gradient(to bottom left, #344675, #263148, #344675);
-  background-image: -moz-linear-gradient(to bottom left, #344675, #263148, #344675);
-  background-image: linear-gradient(to bottom left, #344675, #263148, #344675);
+  background-image: -webkit-linear-gradient(to bottom left, #c51313, #481010, #000000);
+  background-image: -o-linear-gradient(to bottom left, #c51313, #481010, #000000);
+  background-image: -moz-linear-gradient(to bottom left, #c51313, #481010, #000000);
+  background-image: linear-gradient(to bottom left, #c51313, #481010, #000000);
   background-size: 210% 210%;
   background-position: top right;
   background-color: #344675;
@@ -14359,7 +14359,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #5f54f5;
+  color: #ff0000;
 }
 
 h1,

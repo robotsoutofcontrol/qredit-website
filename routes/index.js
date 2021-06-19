@@ -27,11 +27,43 @@ router.get("/altbckp", function (req, res, next) {
   });
 });
 
-/* GET navbar pages. */
+
+/* GET motion pages. */
 router.get("/motion", function (req, res, next) {
   res.render("motion", {
     title: "Qredit - Motion",
     routename: "motion",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/motion-features", function (req, res, next) {
+  res.render("motion-features", {
+    title: "Qredit - Motion",
+    routename: "motion-features",
+    csrfToken: req.csrfToken()
+  });
+});
+router.get("/motion-pricing", function (req, res, next) {
+  res.render("motion-pricing", {
+    title: "Qredit - Motion",
+    routename: "motion-pricing",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/motion-faq", function (req, res, next) {
+  res.render("motion-faq", {
+    title: "Qredit - Motion",
+    routename: "motion-faq",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/motion-listing", function (req, res, next) {
+  res.render("motion-listing", {
+    title: "Qredit - Motion",
+    routename: "motion-listing",
     csrfToken: req.csrfToken()
   });
 });
@@ -47,7 +79,29 @@ router.get("/altfenix", function (req, res, next) {
   });
 });
 
+router.get("/altfenix-features", function (req, res, next) {
+  res.render("altfenix-features", {
+    title: "Qredit - Altfenix Exchange",
+    routename: "altfenix-features",
+    csrfToken: req.csrfToken()
+  });
+});
 
+router.get("/altfenix-faq", function (req, res, next) {
+  res.render("altfenix-faq", {
+    title: "Qredit - Altfenix Exchange",
+    routename: "altfenix-faq",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/altfenix-listing", function (req, res, next) {
+  res.render("altfenix-listing", {
+    title: "Qredit - Altfenix Exchange",
+    routename: "altfenix-listing",
+    csrfToken: req.csrfToken()
+  });
+});
 
 
 module.exports = router;
