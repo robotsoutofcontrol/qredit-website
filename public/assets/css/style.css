@@ -204,7 +204,8 @@ sup {
 }
 
 a {
-  color: #02000a;
+  color: #0094ff;
+  font-weight:800;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -4814,7 +4815,7 @@ input[type="button"].btn-block {
 .card-header {
   padding: 1.25rem 1.5rem;
   margin-bottom: 0;
-  background-color: #f6f9fc;
+  background-color: #f6f9fc00;
   border-bottom: 0.0625rem solid rgba(34, 42, 66, 0.05);
 }
 
@@ -13686,7 +13687,7 @@ img {
   padding: 0.9375rem;
   width: 100%;
   z-index: 1050;
-  background: #02000a;
+  background: #02000af0;
 }
 
 .navbar .photo {
@@ -14352,13 +14353,13 @@ h6 {
 }
 
 a {
-  color: #ba54f5;
-  font-weight: 300;
+  color: #0094ff;
+  font-weight:800;
 }
 
 a:hover,
 a:focus {
-  color: #02000a;
+  color: #5f54f5;
 }
 
 h1,
@@ -16920,7 +16921,7 @@ textarea.form-control:active {
     left: 20% !important;
   }
   .info:first-of-type {
-    padding-top: 10% !important;
+    padding-top: 0% !important;
   }
 }
 
@@ -16954,7 +16955,7 @@ textarea.form-control:active {
 
 @media (min-width: 768px) {
   .info:first-of-type {
-    padding-top: 60%;
+    padding-top: 0%;
   }
 }
 
@@ -17355,11 +17356,13 @@ textarea.form-control:active {
 .info .info-title {
   color: #ffffff;
   margin: 1.75rem 0 0.875rem;
+  font-weight: 800;
 }
 
 .info p {
   color: rgba(222, 222, 222, 0.8);
   line-height: 24px;
+  font-weight: 600;
 }
 
 hr {
