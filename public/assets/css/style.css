@@ -20332,7 +20332,8 @@ input.datetimepicker[data-color="yellow"]+.bootstrap-datetimepicker-widget.dropd
 }
 
 .card.card-coin {
-  border: 2px solid #34467526;
+  border: 2px solid #ec250d14;
+  border-radius:50px;
 }
 
 .card.card-coin .card-header {
