@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include './blocks/head.twig' %}
+
+<body class="index-page">
+
+	{% include './blocks/navbar.twig' %}
+
+	<div class="wrapper">
+
+		<div class="page-header-sub header-filter">
+			<div class="squares square1 no-small-screen"></div>
+			<div class="squares square2 no-small-screen"></div>
+			<div class="squares square3 no-small-screen"></div>
+			<div class="squares square4 no-small-screen"></div>
+			<div class="squares square5 no-small-screen"></div>
+			<div class="squares square6 no-small-screen"></div>
+			<div class="squares square7 no-small-screen"></div>
+			<div class="section section-basic" id="basic-elements">
+				<img src="assets/img/path1.png" class="path">
+				<div class="container" style="margin-top:150px;margin-bottom:150px;">
+
+					<div class="row justify-content-between">
+						<div class="col-md-12 side-text-right-container d-flex mx-auto flex-column"
+							style="text-align:center;">
+							<div class="mb-auto"></div>
+							<h2 class="side-text-right-title f-size25" style="margin-bottom:0px; color:#d22d3d;">Please
+								note!</h2>
+							<h6 style="margin-bottom:20px; color:#d22d3d;">Qredit migrated to a new blockchain in
+								January
+								2021. <br>New
+								addresses start with an X. Old addresses start with a Q.<br>
+								All tools, apps and information on this specific page is related to the
+								old blockchain.<br>
+								Please use the tools on this page only to swap your old coins to your new wallet.<br>
+							</h6>
+
+							<div class="col-md-12" style="text-align:center;">
+								<h6>To swap your old coins to the new chain, please click on the button below.</h6>
+								<a class="btn btn-info btn-simple" style="text-align:center;"
+									href="/blockchain-swap">View
+									Swap
+									Details</a><br>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="main">
+
+			<!-- start of page-->
+			<div class="gradient-line thin"></div>
+
+
+			<div class="container" style="margin-top:50px;margin-bottom:50px;">
+				<div class="row justify-content-between">
+					<div class="col-md-12 side-text-right-container d-flex mx-auto flex-column"
+						style="text-align:center;">
+						<div class="mb-auto"></div>
+						<h2 class="side-text-right-title f-size25" style="margin-bottom:0px;">Qredit Native Wallets.
+						</h2>
+						<h6 style="margin-bottom:20px;">Manage your Qredit coins using our native cryptocurrency
+							wallets.</h6>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="container" style="margin-top:50px;margin-bottom:50px;">
+				<div class="row justify-content-between">
+					<div class="col-md-4 side-text-right-container d-flex mx-auto flex-column"
+						style="text-align:center;">
+						<div class="mb-auto"></div>
+						<h2 class="side-text-right-title f-size25" style="margin-bottom:0px;">Qredit Desktop.</h2>
+						<h6 style="margin-bottom:20px;">Manage your funds, data and contacts with the Desktop Wallet.
+							Receive and
+							transfer assets and data simply with the password you provide.</h6>
+
+
+						<div class="breadcrumb-hosting-pages row">
+							<a class="col-md-3"
+								href="https://github.com/Qredit/desktop-wallet/releases/download/2.9.3/qredit-windows.exe">
+								<img src="assets/img/svgs/windows.svg" alt="">
+								<span class="sub-breadcrumb-host-title">Windows</span>
+							</a>
+
+							<a class="col-md-3"
+								href="https://github.com/Qredit/desktop-wallet/releases/download/2.9.3/qredit-macos.dmg">
+								<img src="assets/img/svgs/apple.svg" alt="">
+								<span class="sub-breadcrumb-host-title">MacOS</span>
+							</a>
+
+							<a class="col-md-3" href="https://github.com/Qredit/desktop-wallet/releases/tag/2.9.3">
+								<img src="assets/img/svgs/linux.svg" alt="#">
+								<span class="sub-breadcrumb-host-title">Linux</span>
+							</a>
+							<a class="col-md-3" href="https://github.com/Qredit/desktop-wallet/">
+								<img src="assets/img/svgs/github.svg" alt="#">
+								<span class="sub-breadcrumb-host-title">Source</span>
+							</a>
+
+						</div>
+						<div class="mt-auto"></div>
+					</div>
+					<div class="col-md-6 about-us-img-section">
+						<img src="assets/img/mockup-wallet-desktop.png" alt="">
+					</div>
+				</div>
+			</div>
+
+
+			<div class="container" style="margin-top:50px; margin-bottom:50px; text-align:center;">
+				<h2 class="side-text-right-title f-size25" style="margin-bottom:0px;">Blockchain Maintenance.</h2>
+				<h6 style="margin-bottom:20px;">Qredit is currently migrating to a new blockchain codebase. Mobile
+					wallets are
+					temporarily unavailable.</h6>
+				<div class="col-md-12" style="text-align:center;">
+					<h6>Click on the button below to view the old Block Explorer</h6>
+					<a class="btn btn-info btn-simple" style="text-align:center;" href="https://explorer2.qredit.io">Old
+						Block
+						Explorer</a><br>
+				</div>
+			</div>
+
+			<!-- end of page-->
+			<div class="gradient-line thin"></div>
+
+
+
+
+
+		</div>
+		{% include './blocks/footer.twig' %}
+	</div>
+	{% include './blocks/scripts.twig' %}
+</body>
+
+</html>
