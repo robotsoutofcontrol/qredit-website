@@ -8,13 +8,13 @@
 git clone https://github.com/Qredit/qredit-website
 cd qredit-website
 npm install
-node app.js
+node qredit.js
 ```
 
-for live editing use "pm2 start app.js --watch" instead of "node app.js".
+for live editing use "pm2 start qredit.js --watch" instead of "qredit app.js".
 
 ```
-pm2 start app.js --watch
+pm2 start qredit.js --watch
 ```
 Website visible at "https://localhost:8080"
 

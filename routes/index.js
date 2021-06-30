@@ -154,11 +154,21 @@ router.get("/blockchain-node", function (req, res, next) {
 
 router.get("/blockchain-swap", function (req, res, next) {
   res.render("blockchain-swap", {
-    title: "Qredit - Developer",
+    title: "Qredit - Blockchain",
     routename: "blockchain-swap",
     csrfToken: req.csrfToken()
   });
 });
+
+
+router.get("/blockchain-old", function (req, res, next) {
+  res.render("blockchain-old", {
+    title: "Qredit - Blockchain",
+    routename: "blockchain-old",
+    csrfToken: req.csrfToken()
+  });
+});
+
 /* GET developer pages. */
 router.get("/developer-motion", function (req, res, next) {
   res.render("developer-motion", {

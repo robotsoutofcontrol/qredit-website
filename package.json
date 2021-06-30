@@ -1,9 +1,9 @@
 {
-  "name": "qredit-website",
+  "name": "qredit-website-2",
   "version": "2.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node qredit.js"
   },
   "dependencies": {
     "async": "^3.1.0",
