@@ -44,10 +44,18 @@ router.get("/motion-features", function (req, res, next) {
     csrfToken: req.csrfToken()
   });
 });
-router.get("/motion-pricing", function (req, res, next) {
-  res.render("motion-pricing", {
+router.get("/motion-pricing-personal", function (req, res, next) {
+  res.render("motion-pricing-personal", {
     title: "Qredit - Motion",
-    routename: "motion-pricing",
+    routename: "motion-pricing-personal",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/motion-pricing-business", function (req, res, next) {
+  res.render("motion-pricing-business", {
+    title: "Qredit - Motion",
+    routename: "motion-pricing-business",
     csrfToken: req.csrfToken()
   });
 });
