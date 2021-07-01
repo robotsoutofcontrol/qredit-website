@@ -17316,8 +17316,8 @@ textarea.form-control:active {
 }
 
 .nav-tabs.nav-tabs-primary>.nav-item>.nav-link.active {
-  border-color: #02000a;
-  color: #02000a;
+  border-color: #d4d4d4;
+  color: #d4d4d4;
 }
 
 .nav-tabs.nav-tabs-info>.nav-item>.nav-link.active {
