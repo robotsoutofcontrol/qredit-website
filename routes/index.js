@@ -68,13 +68,7 @@ router.get("/motion-faq", function (req, res, next) {
   });
 });
 
-router.get("/motion-listing", function (req, res, next) {
-  res.render("motion-listing", {
-    title: "Qredit - Motion",
-    routename: "motion-listing",
-    csrfToken: req.csrfToken()
-  });
-});
+
 
 
 
@@ -99,14 +93,6 @@ router.get("/altfenix-faq", function (req, res, next) {
   res.render("altfenix-faq", {
     title: "Qredit - Altfenix Exchange",
     routename: "altfenix-faq",
-    csrfToken: req.csrfToken()
-  });
-});
-
-router.get("/altfenix-listing", function (req, res, next) {
-  res.render("altfenix-listing", {
-    title: "Qredit - Altfenix Exchange",
-    routename: "altfenix-listing",
     csrfToken: req.csrfToken()
   });
 });
