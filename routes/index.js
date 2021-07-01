@@ -243,13 +243,6 @@ router.get("/about-whitepaper", function (req, res, next) {
   });
 });
 
-router.get("/about-partners", function (req, res, next) {
-  res.render("about-partners", {
-    title: "Qredit - About",
-    routename: "about-partners",
-    csrfToken: req.csrfToken()
-  });
-});
 
 router.get("/about-amlgdpr", function (req, res, next) {
   res.render("about-amlgdpr", {
@@ -267,10 +260,35 @@ router.get("/about-disclaimer", function (req, res, next) {
   });
 });
 
-router.get("/about-policy", function (req, res, next) {
-  res.render("about-policy", {
+router.get("/about-privacy-policy", function (req, res, next) {
+  res.render("about-privacy-policy", {
     title: "Qredit - About",
-    routename: "about-policy",
+    routename: "about-privacy-policy",
+    csrfToken: req.csrfToken()
+  });
+});
+
+/* GET partner pages. */
+router.get("/partners", function (req, res, next) {
+  res.render("partners", {
+    title: "Qredit - Partners",
+    routename: "partners",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/partners-partner-program", function (req, res, next) {
+  res.render("partners-partner-program", {
+    title: "Qredit - Partners",
+    routename: "partners-partner-program",
+    csrfToken: req.csrfToken()
+  });
+});
+
+router.get("/partners-platform-listing", function (req, res, next) {
+  res.render("partners-platform-listing", {
+    title: "Qredit - Partners",
+    routename: "partners-platform-listing",
     csrfToken: req.csrfToken()
   });
 });
