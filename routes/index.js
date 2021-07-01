@@ -52,10 +52,10 @@ router.get("/motion-pricing-personal", function (req, res, next) {
   });
 });
 
-router.get("/motion-pricing-business", function (req, res, next) {
-  res.render("motion-pricing-business", {
+router.get("/motion-pricing-corporate", function (req, res, next) {
+  res.render("motion-pricing-corporate", {
     title: "Qredit - Motion",
-    routename: "motion-pricing-business",
+    routename: "motion-pricing-corporate",
     csrfToken: req.csrfToken()
   });
 });
