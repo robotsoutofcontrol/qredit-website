@@ -45,7 +45,7 @@
 					<div class="row mt-50">
 						<div class="col-md-10 ml-auto col-xl-12 mr-auto">
 							<!-- Tabs with Background on Card -->
-							<div class="card" style="background:#59050580;border-radius:25px;">
+							<div class="card" style="background:#dadada14;border-radius:25px;">
 								<div class="card-header">
 									<ul class="nav nav-tabs nav-tabs-primary justify-content-center" role="tablist">
 										<li class="nav-item">
@@ -67,6 +67,16 @@
 										<li class="nav-item">
 											<a class="nav-link" data-toggle="tab" href="#provider" role="tablist">
 												Service Provider
+											</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" data-toggle="tab" href="#queue" role="tablist">
+												Queue
+											</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" data-toggle="tab" href="#fees" role="tablist">
+												Fees
 											</a>
 										</li>
 									</ul>
@@ -125,7 +135,7 @@
 												</div><br>
 
 												<div
-													style="background-color:#d22d3d; color:#fff; padding:1px; padding-left:10px; border-top-right-radius:5px; border-top-left-radius:5px;">
+													style="background-color:#38171a; color:#fff; padding:1px; padding-left:10px; border-top-right-radius:5px; border-top-left-radius:5px;">
 													<h4><strong>General Delisting Policy for Digital Assets</strong>
 													</h4>
 												</div>
@@ -305,11 +315,6 @@
 														</div>
 													</div>
 												</div>
-
-												<div class="gradient-line thin mb-50"></div>
-
-												<h3 class="text-center">Fees</h3>
-												<p class="text-center">Coming Soon</p>
 											</div>
 										</div>
 										<div class="tab-pane" id="altfenix">
@@ -318,6 +323,59 @@
 										<div class="tab-pane" id="provider">
 											<p class="text-center">Coming Soon</p>
 										</div>
+										<div class="tab-pane" id="queue">
+											<a class="nav-link btn btn-default d-none d-lg-block"
+												onclick="openData(event, 'queuelist')">
+												Click here to load the current integration queue
+											</a>
+											<script>
+												function openData(evt, assetData) {
+													var i, tabcontent, tablinks;
+													tabcontent = document.getElementsByClassName("tabcontent");
+													for (i = 0; i < tabcontent.length; i++) {
+														tabcontent[i].style.display = "active";
+													}
+													tablinks = document.getElementsByClassName("tablinks");
+													for (i = 0; i < tablinks.length; i++) {
+														tablinks[i].className = tablinks[i].className.replace(" active", "");
+													}
+													document.getElementById(assetData).style.display = "block";
+													evt.currentTarget.className += " active";
+												}
+											</script>
+											<div id="queuelist" class="tabcontent">
+												<div id="DirectEditPreserve"
+													class="wow fadeInUp databaseTable_holder 122860">
+													<div id="DirectEditPreserve" class="databaseTable_heading">
+														<div id="DirectEditPreserve" class="databaseTable_title">
+														</div>
+														<input id="DirectEditPreserve"
+															class="databaseTable_search form-control" type="text"
+															width="400" placeholder="Search this table">
+													</div>
+													<div id="DirectEditPreserve" class="databaseTable table-responsive">
+														<div id="DirectEditPreserve"
+															class="databaseTable_import_wrap table  "
+															style="display: block;">
+														</div>
+														<div id="DirectEditPreserve"
+															class="databaseTable_UI_scrollLeft databaseTable_UI_button"
+															style="display: none;">
+															<!-- JS shows/hides by appending the .hidden class -->
+														</div>
+														<div id="DirectEditPreserve"
+															class="databaseTable_UI_scrollRight databaseTable_UI_button"
+															style="display: none;">
+															<!-- JS shows/hides by appending the .hidden class -->
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="tab-pane" id="fees">
+											<p class="text-center">Coming Soon</p>
+										</div>
+
 									</div>
 								</div>
 							</div>
