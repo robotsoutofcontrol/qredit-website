@@ -221,6 +221,7 @@ router.get("/about-licensing", function (req, res, next) {
   });
 });
 
+
 router.get("/about-whitepaper", function (req, res, next) {
   res.render("about-whitepaper", {
     title: "Qredit - About",
