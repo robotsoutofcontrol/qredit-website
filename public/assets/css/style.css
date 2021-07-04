@@ -392,6 +392,7 @@ output {
 }
 
 summary {
+  font-size: 1.1rem;
   display: list-item;
   cursor: pointer;
 }

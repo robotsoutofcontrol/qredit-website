@@ -97,6 +97,14 @@ router.get("/altfenix-faq", function (req, res, next) {
   });
 });
 
+router.get("/altfenix-privacy", function (req, res, next) {
+  res.render("altfenix-privacy", {
+    title: "Qredit - Altfenix Privacy Policy",
+    routename: "altfenix-privacy",
+    csrfToken: req.csrfToken()
+  });
+});
+
 /* GET blockchain pages. */
 router.get("/blockchain", function (req, res, next) {
   res.render("blockchain", {
